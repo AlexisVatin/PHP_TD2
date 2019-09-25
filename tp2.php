@@ -1,6 +1,5 @@
 <?php
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
 <head></head>
 <body>
 <?php
