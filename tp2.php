@@ -1,5 +1,5 @@
 <?php
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head></head>
 <body>
@@ -16,6 +16,5 @@ echo 'c\'est pas maldfvf,nkjnd non ? <br/>';
 
 </body>
 </html>
-
 
 
