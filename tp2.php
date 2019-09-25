@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,5 +16,4 @@
         <?php echo $var1 + $var3; ?>
     </body>
 
-    </html>
-?>
+</html>
