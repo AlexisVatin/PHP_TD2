@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-    <body>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--</head>-->
+ //body>
         <?php
             echo '<strong> Voici mon premier programme PHP </strong><br/>' . "\n";
             echo 'C\'est pas mal non ? <br/>';
@@ -14,6 +14,6 @@
         <?php echo "$var1 + $var2"; ?>
         <?php echo $var1 + $var2; ?>
         <?php echo $var1 + $var3; ?>
-    </body>
+    //body>
 
-</html>
+///html>
