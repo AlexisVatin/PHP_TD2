@@ -4,7 +4,7 @@ include 'utils.inc.php';
 <?php start_page('TD2'); ?>
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width = 100%; height = 100%;">
         <?php
-        if (isset($_SESSION['erreur']) echo '<span> Erreur de mdp </span>';
+        if (isset($_SESSION['erreur'])) echo '<span> Erreur de mdp </span>';
         ?>
         <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <input type="text" name="id" placeholder="Identifiant">

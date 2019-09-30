@@ -5,11 +5,12 @@
     $mail=$_POST['mail'];
     $id=$_POST['id'];
 
+
     if($action == 'mailer')
     {
         if ($pwd == $verifPwd) {
             $message1 .= 'Voici vos identifiants d\'inscription :' . PHP_EOL;
-            $message2 .= 'id : ' . $id . PHP_EOL;
+            $message2 .= 'Id : ' . $id . PHP_EOL;
             $message3 .= 'Email : ' . $mail . PHP_EOL;
             $message4 .= 'Mot de passe : ' . PHP_EOL . $pwd;
             echo '  <br/><strong>' . $message1 . '</strong><br/>
@@ -28,6 +29,7 @@
     {
         echo '<br/><strong>Bouton non géré !</strong><br/>';
     }
+
 
 
 ?>
