@@ -3,6 +3,9 @@ include 'utils.inc.php';
 ?>
 <?php start_page('TD2'); ?>
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width = 100%; height = 100%;">
+        <?php
+        if (isset($_SESSION['erreur']) echo '<span> Erreur de mdp </span>';
+        ?>
         <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <input type="text" name="id" placeholder="Identifiant">
             <input type="radio" id="male" name="sexe" value="Homme">
@@ -22,7 +25,7 @@ include 'utils.inc.php';
             </select>
             <input type="checkbox" id="cgu" name="cgu">
             <label for="cgu">J'accepte les Conditions Générales d'Utilisation</label>
-            <input name="action" type="submit" value="Mail">
+            <input name="action" type="submit" value="mailer">
         </form>
         <div style = "height: 1%;"></div>
 
